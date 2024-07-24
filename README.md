@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Wild Oasis Hotel website
 
-## Getting Started
+[Live Demo] https://foodies-share-nextjs.netlify.app/
 
-First, run the development server:
+## Description:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- This blog is designed to help users explore hotel services.
+- Users can share their own experiences.
+- Users can create an account.
+- Users can view detailed information about each cabin, including booking availability.
+- Users can filter cabins based on maximum capacity.
+- Users can reserve a cabin for a specific date range.
+- Users can view a history of all past and upcoming reservations.
+- Users can modify or cancel existing reservations.
+- Account creation is required to reserve a cabin or perform any other user actions.
+- Logged-in users can update their profile information.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Necessary Pages:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. HomePage "/"
+2. About Page "/about"
+3. Cabin Overview "/cabins"
+4. Cabin Detail "/cabins/:mealID"
+5. Login "/login"
+6. Reservation list "/account/reservations"
+7. Edit reservation "/account/reservations/edit"
+8. Update profile "/account/profile"
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Used Technologies:
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Server side rendering using "Next.js".
+- UI state managment "Context API".
+- Styling: "Tailwind CSS".
+- Database/API: "Supabase".
