@@ -1,6 +1,6 @@
 # Wild Oasis Hotel website
 
-[Live Demo] https://foodies-share-nextjs.netlify.app/
+[Live Demo] live_demo_link
 
 ## Description:
 
